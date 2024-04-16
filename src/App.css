@@ -1,0 +1,16 @@
+
+
+.uflex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.uhr{
+  height: 2px;
+  border: none;
+  border-radius: 25px;
+  width: 80%;
+  /* color: #ECFFFF; */
+  background-color: #c4ffff;
+}

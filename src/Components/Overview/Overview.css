@@ -1,0 +1,82 @@
+.container{
+    margin-left: 17vw;
+    margin-top: 3em;
+    min-height: 90vh;
+    width: 80vw;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    justify-content: flex-start;    
+}
+
+.toolbar{
+    width: 100%;
+    justify-content: flex-start;
+    padding: 5px 10px;
+}
+
+.toolbar > button{
+    margin-right: 20px;
+    padding: 2px;
+    background: none;
+    border: none;
+}
+
+.stats{
+    width: 90%;
+    /* height: 4em; */
+    justify-content: space-between;
+}
+
+.schart{
+    width: 50%;
+    /* height: 3em; */
+    padding: 20px;
+
+    h4{
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+}
+
+
+.charts{
+    width: 100%;
+    /* min-height: 100%; */
+    height: fit-content;
+    /* border: 1px solid purple; */
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+
+.section{
+    min-height: 100%;
+    width: 49%;
+    /* border: 1px solid black; */
+    flex-direction: column;
+}
+
+.vr{
+    height: 150vh;
+    width: 2px;
+    align-self: center;
+}
+
+.chart{
+    width: 95%;
+    /* height: 500px; */
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: unset;
+    /* align-items: flex-start; */
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.chart h2{
+    padding-left: 5px;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 600;
+}

@@ -1,0 +1,49 @@
+.sidebar {
+  width: 15vw;
+  position: fixed;
+  height: calc(100vh - 2.5em);
+  margin-right: 1em;
+  top: 2.5em;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-right: 1px solid #c4ffff;
+  border-bottom: 1px solid #c4ffff;
+  background-color: #f8fffd;
+}
+
+.list-item {
+  /* border: 1px solid black; */
+  background-color: #dfffe6;
+  width: 100%;
+  height: 1.5em;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.category-btn {
+  border: none;
+  background: none;
+  font-size: 15px;
+  color: #47675c;
+}
+
+.dropdown-content {
+  width: 100%;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+}
+
+.dropdown-content .item {
+  width: 100%;
+  /* border: 1px solid black; */
+  padding: 1px 20px;
+  color: #47675c;
+}
+
+.link,
+.link:active,
+.link:focus .link:visited {
+  text-decoration: none;
+  color: #47675c;
+}

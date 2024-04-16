@@ -1,0 +1,43 @@
+.navbar {
+    position: fixed;
+    top: 0;
+  width: 100%;
+  background-color: #95ffe5;
+  height: 2.5em;
+  padding: 1em;
+}
+
+.menu-btn {
+  border: 1px solid black;
+  padding: 2px 4px;
+  background: none;
+  border: none;
+  position: absolute;
+  margin-left: 0.5em;
+  left: 0;
+}
+
+.search-bar {
+  width: 25em;
+  height: 1.5em;
+  /* border: 1px solid green; */
+  justify-content: space-between;
+}
+
+.sc{
+    outline: none;
+  border: none;
+  background-color: #D6FEF5;
+  padding: 2px;
+  border-radius: 3px;
+}
+.search-input {
+  height: 100%;
+  width: 90%;
+  padding: 2px 7px;
+}
+
+.search-btn {
+  height: 100%;
+  width: 8%;
+}

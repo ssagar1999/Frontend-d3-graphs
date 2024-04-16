@@ -1,0 +1,46 @@
+.chart-heading{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: pink;   */
+}
+
+.chart-heading > i,
+.chart-heading > button{
+    margin-right: 2Spx;
+    padding: 0px 4px;
+}
+
+.chart-heading > h4{
+    margin-left: 15px;
+    align-self: baseline;
+    font-weight: 600;
+}
+
+.ch{
+    justify-content: space-around;
+}
+
+.minichart{
+    /* justify-content: first baseline; */
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.minichart > h2{
+    width: unset;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #c4ffff;
+    font-weight: 600;
+}
+
+.minichart > p > span{
+    color: rgba(53, 244, 53, 0.838);
+}
+
+.vr2{
+    height: 450px;
+    width: 2px;
+}
