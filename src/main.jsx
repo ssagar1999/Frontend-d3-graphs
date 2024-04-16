@@ -12,7 +12,7 @@ import Overview from "./Components/Overview/Overview.jsx";
 import SIEM from "./Components/SIEM/SIEM.jsx";
 import Home from "./Components/Home/Home.jsx";
 
-
+Overview
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -25,8 +25,8 @@ const router = createBrowserRouter(
 )
 );
 
-ReactDOM.render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <RouterProvider router={router}>
     <App />
-  </RouterProvider>,document.getElementById("root")
+  </RouterProvider>
 );
